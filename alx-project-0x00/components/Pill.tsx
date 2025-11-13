@@ -1,9 +1,9 @@
 import React from "react";
-
-// Define props for the component
-interface PillProps {
-  title: string;
-}
+import { PillProps } from "@/interfaces";
+// // Define props for the component
+// interface PillProps {
+//   title: string;
+// }
 
 // Accept props properly
 const Pill: React.FC<PillProps> = ({ title }) => {
