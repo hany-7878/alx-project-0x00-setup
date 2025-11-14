@@ -5,14 +5,15 @@ import Button from "@/components/Button";
 const Landing: React.FC = () => {
   return (
     <div className="p-10 space-y-10">
-      <h1 className="text-xl font-extralight">Landing Page</h1>
+      <h1 className="text-2xl font-extralight">Landing Page</h1>
 
-      {/* Keep your original Card */}
+      {/* Original Card */}
       <Card />
 
-      {/* Task 6 — Button Component Showcase */}
+      {/* Button Showcase */}
       <div className="space-y-6">
-        {/* Sizes */}
+
+        {/* Button Sizes */}
         <div>
           <h2 className="text-lg font-semibold mb-2">Button Sizes</h2>
           <div className="flex gap-4">
@@ -22,7 +23,7 @@ const Landing: React.FC = () => {
           </div>
         </div>
 
-        {/* Shapes */}
+        {/* Button Shapes */}
         <div>
           <h2 className="text-lg font-semibold mb-2">Button Shapes</h2>
           <div className="flex gap-4">
@@ -31,6 +32,7 @@ const Landing: React.FC = () => {
             <Button title="Rounded FULL" shape="rounded-full" />
           </div>
         </div>
+
       </div>
     </div>
   );
